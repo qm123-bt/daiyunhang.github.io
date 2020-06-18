@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>简设°</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-matter">
+				<div class="logo-head">
+					<a href="#" style="font-size:3.8em;color:white;text-decoration:none;">先生'戴·简设°</a>
+					<p>Mr. Dai Jianshe</p>
+				</div>
+				<div class="head-grid">
+					<div class="men grid-men  scroll">
+						<a  href="#"><img class="img-responsive clock-item" src="images/men.png" alt="" /></a>
+						<h6>我们的团队</h6>
+					</div>
+					<div class="men">
+						<img class="img-responsive" src="images/pic.jpg" alt="" />
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="grid-header">
+				<div class="grid-tv grid-men  scroll"> 
+						<a  href="#" ><img class="img-responsive clock" src="images/tv.png" alt="" /></a>
+					<h6>简介</h6>
+				</div>
+				<div class="grid-tv tv-portfolio  scroll"> 
+						<a  href="#"><img class=" clock" src="images/pen.png" alt="" /></a>
+					<h6>服务</h6>
+				</div>
+				<div class="grid-tv"> 
+					<img class="img-responsive" src="images/pic1.jpg" alt="" />
+				</div>
+				<div class="grid-tv"> 
+					<img class="img-responsive" class="img-responsive" src="images/pic2.jpg" alt="" />
+				</div>
+				<div class="grid-tv tv-portfolio  scroll"> 
+						<a  href="#"><img class=" clock" src="images/rou.png" alt="" /></a>
+					<h6>关于</h6>
+				</div>
+				<div class="grid-tv"> 
+					<img class="img-responsive" src="images/pic3.jpg" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="grid-head-contact">
+				<div class="grid-msg"> 
+					<img class="img-responsive" src="images/pic4.jpg" alt="" />
+				</div>
+				<div class="k1">
+				<div class="grid-msg grid-men  scroll k2"> 
+						<a  href="#contact" class="scroll"><img class=" clock" src="images/me.png" alt="" /></a>
+					<h6>联系</h6>
+				</div>
+				<div style="text-align: left;" class="grid-msg0 grid-men k0">
+						<p><a href="#">Q Q:&nbsp;3131210375</a></p>
+						<p><a href="mailto:3131210375@qq.com">
+						   邮箱:&nbsp;3131210375@qq.com</a></p>	
+						<p><a href="https://user.qzone.qq.com/3131210375" target="_blank">
+						空间&nbsp;</a></p>
+					    <p><a>暂无:&nbsp;123</a></p>
+				 </div>
+				<div class="grid-msg msg-head"> 
+					<img class="img-responsive" src="images/pic5.jpg" alt="" />
+				</div>
+				<div class="clearfix"> </div></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
